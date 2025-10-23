@@ -5,6 +5,12 @@ const  ( for constants - don't change their value)*/
 
 /*var person = "Richard";
 var person = "Harry"; // Re-declaring a variable with var is allowed
+var person = "John"; 
 
 console.log(person); // Output: Harry */
 
+/* let language = "JavaScript";
+language = "Python"; // Re-assigning a variable with let is allowed
+language = "C++"; // Re-assigning a variable with let is allowed
+
+console.log(language); // Output: C++ */
