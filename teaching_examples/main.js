@@ -14,3 +14,8 @@ language = "Python"; // Re-assigning a variable with let is allowed
 language = "C++"; // Re-assigning a variable with let is allowed
 
 console.log(language); // Output: C++ */
+
+const country = "Kenya";
+// country = "Uganda"; // This will cause an error: Assignment to constant variable.
+
+console.log(country); // Output: Kenya */
