@@ -1,4 +1,5 @@
-// Type coercion done here.
+// equality operator ( == )
+// Type coercion done here  to check if each value is equal.
 
 console.log(5 == "5");
 
