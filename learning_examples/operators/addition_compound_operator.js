@@ -6,6 +6,6 @@ console.log(num);
 The addition assignment operator takes the current value of the variable, adds the specified number to it,
 and then assigns the result back to the variable: */
 
-let numb = 5;
+let numb = 15;
 numb += 2;          // combines both the addition and assignment steps into one.
 console.log(numb);
