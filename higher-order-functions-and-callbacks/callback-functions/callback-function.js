@@ -1,5 +1,5 @@
 function doSomething(callback) {
-  console.log("Doing something...");
+  console.log("Doing something..."); // first part to be executed
   callback(); // run the function that was passed in
 }
 
@@ -11,10 +11,4 @@ doSomething(sayHi);
 
 
 
-/*
- * anonymous callback
- *
- doSomething(function() {
- 	console.log("Hi");
- });
- * /
+

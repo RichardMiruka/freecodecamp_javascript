@@ -5,5 +5,5 @@ function checkNumber(num) {
 	return "Odd";
 }
 
-console.log(checkNumber(4));
-console.log(checkNumber(7));
+console.log(checkNumber(8));
+console.log(checkNumber(11));

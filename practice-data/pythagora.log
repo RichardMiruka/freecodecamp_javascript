@@ -1,0 +1,259 @@
+2025-10-23T11:41:31.830Z INFO SharedStateManager initialized
+2025-10-23T11:41:31.830Z INFO Is remote: false
+2025-10-23T11:41:32.064Z INFO Starting Local. Installation path: /home
+2025-10-23T11:41:32.126Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-23T11:41:32.201Z INFO Installation path exists: /home
+2025-10-23T11:41:32.205Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-10-23T11:41:32.223Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Wb.n (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at Wb.m (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at Wb.l (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-23T11:41:32.257Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.18/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Wb.n (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at Wb.m (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at Wb.l (file:///home/richardmiruka/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-23T11:41:32.258Z INFO Database initialized successfully
+2025-10-23T11:41:32.296Z INFO [Migration] Checking for database migration...
+2025-10-23T11:41:32.299Z INFO [Migration] No migration needed
+2025-10-25T08:19:16.542Z INFO SharedStateManager initialized
+2025-10-25T08:19:16.543Z INFO Is remote: false
+2025-10-25T08:19:16.772Z INFO Starting Local. Installation path: /home
+2025-10-25T08:19:17.491Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-25T08:19:17.624Z INFO Installation path exists: /home
+2025-10-25T08:19:17.640Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-10-25T08:19:17.740Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-25T08:19:17.785Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-25T08:19:17.786Z INFO Database initialized successfully
+2025-10-25T08:19:17.821Z INFO [Migration] Checking for database migration...
+2025-10-25T08:19:17.824Z INFO [Migration] No migration needed
+2025-10-28T12:01:00.353Z INFO SharedStateManager initialized
+2025-10-28T12:01:00.355Z INFO Is remote: false
+2025-10-28T12:01:00.449Z INFO Starting Local. Installation path: /home
+2025-10-28T12:01:00.469Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-28T12:01:00.486Z INFO Installation path exists: /home
+2025-10-28T12:01:00.487Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-10-28T12:01:00.493Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-28T12:01:00.504Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-10-28T12:01:00.505Z INFO Database initialized successfully
+2025-10-28T12:01:00.512Z INFO [Migration] Checking for database migration...
+2025-10-28T12:01:00.512Z INFO [Migration] No migration needed
+2025-11-19T12:14:52.739Z INFO SharedStateManager initialized
+2025-11-19T12:14:52.741Z INFO Is remote: false
+2025-11-19T12:14:52.955Z INFO Starting Local. Installation path: /home
+2025-11-19T12:14:53.405Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-19T12:14:53.445Z INFO Installation path exists: /home
+2025-11-19T12:14:53.450Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-11-19T12:14:53.459Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-11-19T12:14:53.486Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-11-19T12:14:53.487Z INFO Database initialized successfully
+2025-11-19T12:14:53.502Z INFO [Migration] Checking for database migration...
+2025-11-19T12:14:53.502Z INFO [Migration] No migration needed
+2025-11-20T18:49:06.848Z INFO SharedStateManager initialized
+2025-11-20T18:49:06.850Z INFO Is remote: false
+2025-11-20T18:49:07.528Z INFO Starting Local. Installation path: /home
+2025-11-20T18:49:08.792Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-20T18:49:09.359Z INFO Installation path exists: /home
+2025-11-20T18:49:09.372Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-11-20T18:49:09.395Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-11-20T18:49:09.464Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:39:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.5.24/out/extension.js:105:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-11-20T18:49:09.464Z INFO Database initialized successfully
+2025-11-20T18:49:09.504Z INFO [Migration] Checking for database migration...
+2025-11-20T18:49:09.505Z INFO [Migration] No migration needed
+2025-12-02T08:11:26.120Z INFO SharedStateManager initialized
+2025-12-02T08:11:26.122Z INFO Is remote: false
+2025-12-02T08:11:26.355Z INFO Starting Local. Installation path: /home
+2025-12-02T08:11:27.346Z INFO [MainProvider] Creating new MainProvider instance...
+2025-12-02T08:11:27.348Z INFO [TabsManager] Code view listener set up at initialization
+2025-12-02T08:11:27.699Z INFO Installation path exists: /home
+2025-12-02T08:11:27.706Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-12-02T08:11:27.736Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-02T08:11:27.774Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.4/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-02T08:11:27.788Z INFO Database initialized successfully
+2025-12-02T08:11:27.819Z INFO [Migration] Checking for database migration...
+2025-12-02T08:11:27.820Z INFO [Migration] No migration needed

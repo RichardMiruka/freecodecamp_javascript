@@ -1,6 +1,6 @@
-function greet(name, callback) {
+function greet(name, action) {
 	console.log("Hello " + name);
-	callback();
+	action();
 }
 
 function sayGoodbye () {
@@ -8,3 +8,21 @@ function sayGoodbye () {
 }
 
 greet("Alex", sayGoodbye);
+
+
+
+
+
+// What triggers the callback - A function reaching a certain point.
+
+
+// inline function
+greet("Alex", function() {
+	console.log("Goodbye!");
+});
+
+
+// arrow function
+greet("Alex", () => {
+	console.log("Goodbye!");
+});

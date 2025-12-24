@@ -1,0 +1,241 @@
+2025-12-03T07:42:45.562Z INFO SharedStateManager initialized
+2025-12-03T07:42:45.563Z INFO Is remote: false
+2025-12-03T07:42:45.705Z INFO Starting Local. Installation path: /home
+2025-12-03T07:42:45.938Z INFO [MainProvider] Creating new MainProvider instance...
+2025-12-03T07:42:45.939Z INFO [TabsManager] Code view listener set up at initialization
+2025-12-03T07:42:45.960Z INFO Installation path exists: /home
+2025-12-03T07:42:45.962Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-12-03T07:42:45.969Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-03T07:42:45.980Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Gb.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-03T07:42:45.983Z INFO Database initialized successfully
+2025-12-03T07:42:45.989Z INFO [Migration] Checking for database migration...
+2025-12-03T07:42:45.990Z INFO [Migration] No migration needed
+2025-12-03T07:46:45.970Z INFO [TabsManager] First file opened, triggering split view
+2025-12-03T07:46:45.971Z INFO [MainProvider] First file opened, creating split view
+2025-12-03T07:46:52.698Z INFO Closing entire Pythagora extension...
+2025-12-03T07:46:52.835Z ERROR Error handling file redirection:
+Error: Canceled
+Stack: Canceled: Canceled
+    at gl (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:166564
+    at Array.forEach (<anonymous>)
+    at U4.dispose (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:166504)
+    at SZ.terminate (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:10155)
+    at H3.terminate (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:8561)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at ov.A (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at A5.acceptChunk (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at yN.z (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21744)
+    at yN.acceptFrame (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21550)
+    at bN.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:20078)
+    at file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:17310
+    at Socket.t (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:15251)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
+2025-12-03T07:46:53.406Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:165113)
+    at U4.U (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:169723)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:167217)
+    at iy.g (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:560:31)
+    at Object.deactivate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:427:15)
+    at SZ.eb (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:393:8561)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at ov.A (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at A5.acceptChunk (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+    at od.value (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at yN.z (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21744)
+    at yN.acceptFrame (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:21550)
+    at bN.n (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:20078)
+    at file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:17310
+    at Socket.t (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:15251)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
+2025-12-03T07:46:53.429Z ERROR Error handling file redirection:
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:165113)
+    at U4.U (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:169723)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:29:167217)
+    at Ky.i (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:123:25473)
+    at Object.close (file:///home/richardmiruka/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/vs/workbench/api/node/extensionHostProcess.js:123:23960)
+    at TabsManager.handleFileRedirection (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/managers/TabsManager.js:95:51)
+    at TabsManager.processFileOpen (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/managers/TabsManager.js:158:20)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at TabsManager.handleUserFileAction (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/managers/TabsManager.js:162:9)
+    at TabsManager.handleActiveEditorChanged (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/managers/TabsManager.js:185:13)
+Extra context: {
+  "message": "Canceled"
+}
+2025-12-03T07:48:20.362Z INFO SharedStateManager initialized
+2025-12-03T07:48:20.362Z INFO Is remote: false
+2025-12-03T07:48:20.547Z INFO Starting Local. Installation path: /home
+2025-12-03T07:48:20.609Z INFO [MainProvider] Creating new MainProvider instance...
+2025-12-03T07:48:20.610Z INFO [TabsManager] Code view listener set up at initialization
+2025-12-03T07:48:20.634Z INFO Installation path exists: /home
+2025-12-03T07:48:20.636Z INFO Initializing database with URL: file:/home/pythagora-core/data/database/pythagora.db
+2025-12-03T07:48:20.647Z ERROR Database initialization error
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Uy.n (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Uy.m (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Uy.l (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-03T07:48:20.669Z ERROR Failed to ensure database
+Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+Stack: Error: EACCES: permission denied, mkdir '/home/pythagora-core/data/database'
+    at Object.mkdirSync (node:fs:1363:26)
+    at PrismaSession.ensureDatabaseSync (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:61:20)
+    at new PrismaSession (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:17:18)
+    at Function.getInstance (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/core/CustomPrismaSession.js:28:38)
+    at initializeDatabase (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:46:45)
+    at activate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:117:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Uy.n (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Uy.m (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Uy.l (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "code": "EACCES",
+  "message": "EACCES: permission denied, mkdir '/home/pythagora-core/data/database'"
+}
+2025-12-03T07:48:20.678Z INFO Database initialized successfully
+2025-12-03T07:48:20.690Z INFO [Migration] Checking for database migration...
+2025-12-03T07:48:20.690Z INFO [Migration] No migration needed
+2025-12-03T07:48:52.979Z INFO [TabsManager] First file opened, triggering split view
+2025-12-03T07:48:52.980Z INFO [MainProvider] First file opened, creating split view
+2025-12-03T08:02:10.188Z INFO [TabsManager] First file opened, triggering split view
+2025-12-03T08:02:10.188Z INFO [MainProvider] First file opened, creating split view
+2025-12-03T08:02:12.717Z INFO [TabsManager] First file opened, triggering split view
+2025-12-03T08:02:12.717Z INFO [MainProvider] First file opened, creating split view
+2025-12-03T08:02:55.302Z INFO Closing entire Pythagora extension...
+2025-12-03T08:02:55.803Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new ij (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:169040)
+    at JS.U (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:173650)
+    at Proxy.r.<computed>.n.charCodeAt.r.<computed> (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:171144)
+    at Zy.g (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:41133)
+    at Zy.executeCommand (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:114:40637)
+    at Object.executeCommand (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:210:101000)
+    at closeEntirePythagoraExtension (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:560:31)
+    at Object.deactivate (/home/richardmiruka/.vscode-server/extensions/pythagoratechnologies.pythagora-vs-code-2.6.10/out/extension.js:427:15)
+    at kX.eb (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+    at file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+    at Array.map (<anonymous>)
+    at kX.$ (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+    at kX.terminate (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+    at nN.terminate (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fr (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at Wd.value (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:402:8562)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ho.fire (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+    at Q1.A (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:12570)
+    at Wd.value (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:10990)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at R5.acceptChunk (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:7937)
+    at Wd.value (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:7223)
+    at $.C (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at zO.w (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:21740)
+    at zO.acceptFrame (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:21546)
+    at UO.m (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:20074)
+    at file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:17306
+    at Socket.t (file:///home/richardmiruka/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/vs/workbench/api/node/extensionHostProcess.js:29:15247)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
