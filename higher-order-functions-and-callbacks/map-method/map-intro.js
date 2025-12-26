@@ -10,6 +10,7 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(doubled);
 
 
+// map() = take an array → change each item → return a new array
 // map() with a regular function 
 
 const numbers = [1, 2, 3, 4, 5];
