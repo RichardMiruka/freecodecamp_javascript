@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+/* Web Animations box */
+#box {
+  width: 100px;
+  height: 100px;
+  background: #1b1b32;
+  margin-bottom: 10px;
+}
+
+/* requestAnimationFrame demo */
+#movingText {
+  position: absolute;
+  top: 400px;
+  background: crimson;
+  color: white;
+  padding: 10px;
+}
+
+/* Menu toggle */
+#menu {
+  display: none;
+  background: #eee;
+  padding: 10px;
+}
+
+#menu.show {
+  display: block;
+}
+

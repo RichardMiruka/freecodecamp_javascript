@@ -20,6 +20,7 @@ const storyObj = {
   },
 };
 
+
 function displayStory(genre) {
   if (storyObj[genre]) {
     resultParagraph.textContent = storyObj[genre].story;
@@ -30,7 +31,8 @@ function displayStory(genre) {
   }
 }
 
-// Event listeners — exactly as requested
+
+// Event listeners
 scaryStoryBtn.addEventListener("click", () => displayStory("scary"));
 funnyStoryBtn.addEventListener("click", () => displayStory("funny"));
 adventureStoryBtn.addEventListener("click", () => displayStory("adventure"));

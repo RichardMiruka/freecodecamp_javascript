@@ -1,0 +1,24 @@
+<section>
+    <h2>Dialog Element</h2>
+    <button id="openDialog">Open Dialog</button>
+
+    <dialog id="myDialog">
+      <p>This is a dialog</p>
+      <button id="closeDialog">Close</button>
+    </dialog>
+  </section>
+
+
+  // JavaScript code
+ const dialog = document.getElementById("myDialog");
+ const openBtn = document.getElementById("openDialog");
+ const closeBtn = document.getElementById("closeDialog");
+
+ openBtn.addEventListener("Click", () => 
+ {
+	dialog.showModal();
+ });
+
+ closeBtn.addEventListener("Click", () => {
+	dialog.close();
+ });
