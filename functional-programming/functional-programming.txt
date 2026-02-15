@@ -1,0 +1,23 @@
+- Why Functional Programming Is Powerful
+
+- Because pure functions:
+
+- Are easy to test
+
+- Are predictable
+
+- Don't break other parts of code
+
+- Are reusable
+
+- Work well in modern frameworks like:
+
+ - React
+
+ - Vue.js
+
+ - Angular
+
+- Modern frontend development heavily uses functional concepts
+
+
